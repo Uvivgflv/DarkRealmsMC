@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     ],
     {
         W: 'twilightforest:twilight_oak_planks'
-    })
+    }).id('tf:twilight_oak_chest')
 
     event.shaped('twilightforest:canopy_chest', [
         'WWW',
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
     ],
     {
         W: 'twilightforest:canopy_planks'
-    })
+    }).id('tf:canopy_chest')
 
     event.shaped('twilightforest:mangrove_chest', [
         'WWW',
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
     ],
     {
         W: 'twilightforest:mangrove_planks'
-    })
+    }).id('tf:mangrove_chest')
 
     event.shaped('twilightforest:dark_chest', [
         'WWW',
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
     ],
     {
         W: 'twilightforest:dark_planks'
-    })
+    }).id('tf:dark_chest')
 
     event.shaped('twilightforest:time_chest', [
         'WWW',
@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
     ],
     {
         W: 'twilightforest:time_planks'
-    })
+    }).id('tf:time_chest')
 
     event.shaped('twilightforest:transformation_chest', [
         'WWW',
@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
     ],
     {
         W: 'twilightforest:transformation_planks'
-    })
+    }).id('tf:transformation_chest')
 
     event.shaped('twilightforest:mining_chest', [
         'WWW',
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
     ],
     {
         W: 'twilightforest:mining_planks'
-    })
+    }).id('tf:mining_chest')
 
     event.shaped('twilightforest:sorting_chest', [
         'WWW',
@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
     ],
     {
         W: 'twilightforest:sorting_planks'
-    })
+    }).id('tf:sorting_chest')
     //add materials recipes
     
     //add integrations recipes
