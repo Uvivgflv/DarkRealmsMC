@@ -1,0 +1,82 @@
+Changelog v0.1.0 DarkRealms
+
+Added
+
+	• Blasting recipes for raw metals blocks
+
+	• Recipes netherite ingot from fiery 
+
+	• Inventory items weight items: raw ores, gems 1 => 2-4, ingots 1 => 3-8, chests 1 => 16, shields 1 => 16-24
+
+	• Custom items for tools upgrades stone -> iron, iron -> gold, gold -> diamond. 
+
+	• Custom items for weapons upgrades stone -> iron, iron -> gold, gold -> diamond
+
+	• 
+
+Changed 
+
+	• Config for thermal ore generation: remove lead, nickel ores
+
+	• Maximum inventory weight 3000 => 2500
+
+	• Glowsticks completely removed 
+
+	• Rotor, stator from tfmg completely removed 
+
+	• Iron and above tools tiers now crafting using smithing table from parts and upgrades
+
+	• Tools upgrades crafts from custom items 
+
+	• Iron and above weapons tiers now crafting using smithing table from parts and upgrades 
+
+	• Weapons upgrades parts drop from different hostile 
+
+	• Iron upgrades shards drops from zombies, spiders, husks
+
+	• Gold upgrades shards drops from creepers, cave spiders, ice skeletons
+
+	• Diamond upgrades shards drops from endermans, pillagers
+
+	• Netherite upgrade shards drops from piglins, piglin brute, zombified piglin
+
+	• Tools and weapons recipes removed, except wood, stone tiers
+
+	• All tools separate to different types: farming(hoes, knifes), axes(axes I guess), pickaxes(pickaxes), shovels(the same thing) . All types tools has a unique recipes for upgrades. 
+
+	• Almost every create and create addons recipes completely removed, and many parts may find in structures or buying from villagers. For example: mechanical drill has no longer craft recipe, but it is still could be find in Tinkerers workshop structure
+
+New mods or deleted mods
+
+	• Adding Passive Skill Tree mod
+
+	• Removed Valkyrien sky's 
+
+NYI
+
+	• Customize infusing from apotheosis
+
+	• Entity leveling
+
+	• Temperature mechanic
+
+	• Custom trades using coins
+
+	• Nerf or debuff villager trades, iron golems abuse, create iron farm, 
+
+	• Find a way to lock and unlock crafting recipes maybe using stages api. For trigger create a custom items and quest
+
+Some progression changes
+
+	• Death penalty for losing Max HP (maximum lost HP is 4) 
+
+	• Game started with ring of seven curses on player
+
+	• Tools progression: wooden, stone, copper, iron, golden, diamond, netherite, enderite(?) 
+
+	• Tables progression inventory 2x2 crafting, wooden/stone/copper 3x3 crafting, iron/golden/diamond/netherite smithing table
+
+	• Campfire, stone furnace, blasting furnace, create smelting 
+
+	• 
+
