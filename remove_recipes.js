@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: /^minecraft:.*_leggings/})
 	event.remove({output: /^minecraft:.*_boots/})
 	//remove vanilla templates duplications
-	event.remove({output: /^minecreft:.*_smithing_template/})
+	event.remove({output: /^minecraft:.*_smithing_template/})
 
 
 
