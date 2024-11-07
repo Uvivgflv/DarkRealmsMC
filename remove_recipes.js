@@ -36,7 +36,20 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'twilightforest:transformation_chest'})	//6
 	event.remove({output: 'twilightforest:mining_chest'})			//7
 	event.remove({output: 'twilightforest:sorting_chest'})			//8
-
+	//remove vanilla tools 
+	event.remove({output: /^minecraft:.*_pickaxe/})
+	event.remove({output: /^minecraft:.*_axe/})
+	event.remove({output: /^minecraft:.*_hoe/})
+	event.remove({output: /^minecraft:.*_shovel/})
+	//remove vanilla weapons
+	event.remove({output: /^minecraft:.*_sword/})
+	//remove vanilla armor
+	event.remove({output: /^minecraft:.*_helmet/})
+	event.remove({output: /^minecraft:.*_chestplate/})
+	event.remove({output: /^minecraft:.*_leggings/})
+	event.remove({output: /^minecraft:.*_boots/})
+	//remove vanilla templates duplications
+	event.remove({output: /^minecreft:.*_smithing_template/})
 
 
 
