@@ -2,29 +2,29 @@ Changelog v0.1.0 DarkRealms
 
 Added
 
-	• Blasting recipes for raw metals blocks
+	• Blasting recipes for raw metals blocks :check:
 
-	• Recipes netherite ingot from fiery 
+	• Recipes netherite ingot from fiery :needs texture:
 
-	• Inventory items weight items: raw ores, gems 1 => 2-4, ingots 1 => 3-8, chests 1 => 16, shields 1 => 16-24
+	• Inventory items weight items: raw ores, gems 1 => 2-4, ingots 1 => 3-8, chests 1 => 16, shields 1 => 16-24 :check:
 
-	• Custom items for tools upgrades stone -> iron, iron -> gold, gold -> diamond. 
+	• Custom items for tools upgrades stone -> iron, iron -> gold, gold -> diamond.  :needs texture:
 
-	• Custom items for weapons upgrades stone -> iron, iron -> gold, gold -> diamond
+	• Custom items for weapons upgrades stone -> iron, iron -> gold, gold -> diamond. :needs texture:
 
 	• 
 
 Changed 
 
-	• Config for thermal ore generation: remove lead, nickel ores
+	• Config for thermal ore generation: remove lead, nickel ores :check:
 
-	• Maximum inventory weight 3000 => 2500
+	• Maximum inventory weight 3000 => 2500 :check:
 
-	• Glowsticks completely removed 
+	• Glowsticks completely removed :check:
 
-	• Rotor, stator from tfmg completely removed 
+	• Rotor, stator from tfmg completely removed :check:
 
-	• Iron and above tools tiers now crafting using smithing table from parts and upgrades
+	• Iron and above tools tiers now crafting using smithing table from parts and upgrades 
 
 	• Tools upgrades crafts from custom items 
 
