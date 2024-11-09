@@ -4,13 +4,13 @@ Added
 
 	• Blasting recipes for raw metals blocks :check:
 
-	• Recipes netherite ingot from fiery :needs texture:
+	• Recipes netherite ingot from fiery :check:
 
 	• Inventory items weight items: raw ores, gems 1 => 2-4, ingots 1 => 3-8, chests 1 => 16, shields 1 => 16-24 :check:
 
-	• Custom items for tools upgrades stone -> iron, iron -> gold, gold -> diamond.  :needs texture:
+	• Custom items for tools upgrades stone -> iron, iron -> gold, gold -> diamond.  :check:
 
-	• Custom items for weapons upgrades stone -> iron, iron -> gold, gold -> diamond. :needs texture:
+	• Custom items for weapons upgrades stone -> iron, iron -> gold, gold -> diamond. :check:
 
 	• 
 
@@ -24,9 +24,9 @@ Changed
 
 	• Rotor, stator from tfmg completely removed :check:
 
-	• Iron and above tools tiers now crafting using smithing table from parts and upgrades 
+	• Iron and above tools tiers now crafting using smithing table from parts and upgrades :check:
 
-	• Tools upgrades crafts from custom items 
+	• Tools upgrades crafts from custom items :WIP:
 
 	• Iron and above weapons tiers now crafting using smithing table from parts and upgrades 
 
@@ -42,15 +42,14 @@ Changed
 
 	• Tools and weapons recipes removed, except wood, stone tiers
 
-	• All tools separate to different types: farming(hoes, knifes), axes(axes I guess), pickaxes(pickaxes), shovels(the same thing) . All types tools has a unique recipes for upgrades. 
 
-	• Almost every create and create addons recipes completely removed, and many parts may find in structures or buying from villagers. For example: mechanical drill has no longer craft recipe, but it is still could be find in Tinkerers workshop structure
+	• Almost every create and create addons recipes completely removed, and many parts may find in structures or buying from villagers. For example: mechanical drill has no longer craft recipe, but it is still could be find in Tinkerers workshop structure :WIP:
 
 New mods or deleted mods
 
-	• Adding Passive Skill Tree mod
+	• Adding Passive Skill Tree mod :check:
 
-	• Removed Valkyrien sky's 
+	• Removed Valkyrien sky's :check:
 
 NYI
 
