@@ -2,7 +2,11 @@ ServerEvents.recipes(event => {
 
 	//remove vanilla netherite ingot
 	event.remove({id: 'minecraft:netherite_ingot'})
-    
+	//vanilla materials
+	event.remove({id: 'minecraft:smooth_stone'})
+    //vanilla crafting stations
+	event.remove({id: 'quark:building/crafting/furnaces/cobblestone_furnace'})
+	event.remove({output: 'minecraft:blast_furnace'})
 	//remove thermal generators
 	event.remove({output: '#thermal:dynamos'})
 	//remove tfmg generators 
