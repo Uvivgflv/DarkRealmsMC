@@ -50,6 +50,15 @@ ServerEvents.recipes(event => {
 	event.remove({output: /^minecraft:.*_boots/})
 	//remove vanilla templates duplications
 	event.remove({output: /^minecraft:.*_smithing_template/})
+	//remove glass smelting in furnace
+	event.remove({id: 'minecraft:glass'})
+	event.remove({id: 'immersive_weathering:glass_from_vitrified_sand_smelting'})
+	event.remove({id: 'yungscavebiomes:glass_from_ancient_sand'})
+	event.remove({id: 'immersive_weathering:vitrified_sand'})
+
+
+
+
 
 
 
