@@ -10,6 +10,9 @@ ServerEvents.tags('item', event => {
     event.add('kubejs:grinding_stones/sulfur', 'tfmg:sulfur')
     //event.add('minecraft:smelst_to_glass', ['yungscavebiomes:ancient_sand', 'immersive_weathering:vitrified_sand'])
     event.get('minecraft:smelts_to_glass').add(['yungscavebiomes:ancient_sand', 'immersive_weathering:vitrified_sand'])
+    event.add('vl:cobbled_furnaces', ['quark:blackstone_furnace','quark:deepslate_furnace'])
+
+    event.add('vl:andesite_casing_stones', ['minecraft:diorite','minecraft:andesite','minecraft:granite'])
     
 })
 ServerEvents.tags('block', event => {
