@@ -127,10 +127,10 @@ ServerEvents.recipes(event => {
     //iron tools
     //раобраться с этими вонючими NBT я так и не понял что ему надо
     event.smithing(
-        Item.of('minecraft:iron_pickaxe'),
+        Item.of('minecraft:iron_pickaxe').withNBT(),
         'kubejs:iron_tool_upgrade',
         'minecraft:iron_ingot',
-        Item.of('minecraft:stone_pickaxe')
+        Item.of('minecraft:stone_pickaxe').withNBT() 
     ).id('vl:tools/iron/pickaxe')
     
     event.smithing(
@@ -182,6 +182,7 @@ ServerEvents.recipes(event => {
         'minecraft:golden_hoe'
     ).id('vl:tools/golden/hoe')
     //получить все nbt с предмета, перенести nbt на результат? 
+    //withNBT() 
     //diamond tools
 
 })
