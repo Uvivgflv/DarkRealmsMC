@@ -181,6 +181,7 @@ ServerEvents.recipes(event => {
         'minecraft:gold_ingot',
         'minecraft:golden_hoe'
     ).id('vl:tools/golden/hoe')
+    //получить все nbt с предмета, перенести nbt на результат? 
     //diamond tools
 
 })
