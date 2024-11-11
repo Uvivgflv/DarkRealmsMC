@@ -59,6 +59,8 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'immersive_weathering:glass_from_vitrified_sand_smelting'})
 	event.remove({id: 'yungscavebiomes:glass_from_ancient_sand'})
 	event.remove({id: 'immersive_weathering:vitrified_sand'})
+	//remove vanilla blanck map recipe
+	event.remove({id:'minecraft:map'})
 
 
 
