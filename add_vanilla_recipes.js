@@ -124,65 +124,27 @@ ServerEvents.recipes(event => {
         R:'quark:sturdy_stone',
         S:'#forge:rods/wooden'
     }).id('vl:tools/stone/hoe')
-    //iron tools
-    //раобраться с этими вонючими NBT я так и не понял что ему надо
-    event.smithing(
-        Item.of('minecraft:iron_pickaxe').withNBT(),
-        'kubejs:iron_tool_upgrade',
-        'minecraft:iron_ingot',
-        Item.of('minecraft:stone_pickaxe').withNBT() 
-    ).id('vl:tools/iron/pickaxe')
+    //iron tools and above recipes use crafttweaker recipes with tranfer NBT tags
+    //wooden weapons
+    event.shaped('minecraft:wooden_sword',[
+        ' F ',
+        ' W ',
+        ' S '
+    ],
+    {
+        W:'#minecraft:planks',
+        S:'#forge:rods/wooden',
+        F:'minecraft:flint'
+    }).id('vl:weapons/wooden/sword')
     
-    event.smithing(
-        'minecraft:iron_axe',
-        'kubejs:iron_tool_upgrade',
-        'minecraft:iron_ingot',
-        'minecraft:stone_axe'
-    ).id('vl:tools/iron/axe')
-
-    event.smithing(
-        'minecraft:iron_shovel',
-        'kubejs:iron_tool_upgrade',
-        'minecraft:iron_ingot',
-        'minecraft:stone_shovel'
-    ).id('vl:tools/iron/shovel')
-
-    event.smithing(
-        'minecraft:iron_hoe',
-        'kubejs:iron_tool_upgrade',
-        'minecraft:iron_ingot',
-        'minecraft:stone_hoe'
-    ).id('vl:tools/iron/hoe')
-    //golden tools
-    event.smithing(
-        'minecraft:golden_pickaxe',
-        'kubejs:golden_tool_upgrade',
-        'minecraft:gold_ingot',
-        'minecraft:iron_pickaxe'
-    ).id('vl:tools/golden/pickaxe')
-
-    event.smithing(
-        'minecraft:golden_axe',
-        'kubejs:golden_tool_upgrade',
-        'minecraft:gold_ingot',
-        'minecraft:iron_axe'
-    ).id('vl:tools/golden/axe')
-
-    event.smithing(
-        'minecraft:golden_shovel',
-        'kubejs:golden_tool_upgrade',
-        'minecraft:gold_ingot',
-        'minecraft:iron_shovel'
-    ).id('vl:tools/golden/shovel')
-
-    event.smithing(
-        'minecraft:golden_hoe',
-        'kubejs:golden_tool_upgrade',
-        'minecraft:gold_ingot',
-        'minecraft:golden_hoe'
-    ).id('vl:tools/golden/hoe')
-    //получить все nbt с предмета, перенести nbt на результат? 
-    //withNBT() 
-    //diamond tools
+    event.shaped('minecraft:stone_sword',[
+        ' F ',
+        ' R ',
+        ' S '
+    ],{
+        F:'minecraft:flint',
+        R:'quark:sturdy_stone',
+        S:'#forge:rods/wooden'
+    }).id('vl:weapons/stone/sword')
 
 })
