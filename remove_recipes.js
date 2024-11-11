@@ -2,6 +2,8 @@ ServerEvents.recipes(event => {
 
 	//remove vanilla netherite ingot
 	event.remove({id: 'minecraft:netherite_ingot'})
+	event.remove({id: 'minecraft:netherite_scrap'})
+	event.remove({id: 'minecraft:netherite_scrap_from_blasting'})
 	//vanilla materials
 	event.remove({id: 'minecraft:smooth_stone'})
     //vanilla crafting stations
