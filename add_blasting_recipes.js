@@ -12,4 +12,6 @@ ServerEvents.recipes(event => {
     event.blasting('thermal:nickel_block', '#forge:storage_blocks/raw_nickel').xp(2.8).cookingTime(1500).id('vl:blasting/raw_nickel_block')
     //glass blasting recipes
     event.blasting('2x minecraft:glass', '#minecraft:smelts_to_glass').xp(1.0).cookingTime(600).id('vl:blasting/glass')
+    //netherite scrap
+    event.blasting('minecraft:netherite_scrap', '#forge:ores/netherite_scrap').xp(2.4).cookingTime(2000).id('vl:blasting/netherite_scrap')
 })

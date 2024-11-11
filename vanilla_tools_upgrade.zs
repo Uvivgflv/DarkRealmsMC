@@ -73,6 +73,29 @@ import crafttweaker.api.item.IItemStack;
     <item:minecraft:golden_hoe>.anyDamage(), //base
     <item:minecraft:diamond>);
 //netherite tools
+    smithing.addTransformRecipe("netherite_pickaxe_from_diamond",
+    <item:minecraft:iron_hoe>, //result
+    <item:minecraft:netherite_upgrade_smithing_template>, //template
+    <item:minecraft:diamond_pickaxe>.anyDamage(), //base
+    <item:minecraft:netherite_ingot>);
+
+    smithing.addTransformRecipe("netherite_axe_from_diamond",
+    <item:minecraft:netherite_axe>, //result
+    <item:minecraft:netherite_upgrade_smithing_template>, //template
+    <item:minecraft:diamond_axe>.anyDamage(), //base
+    <item:minecraft:netherite_ingot>);
+
+    smithing.addTransformRecipe("netherite_shovel_from_diamond",
+    <item:minecraft:diamond_hoe>, //result
+    <item:minecraft:netherite_upgrade_smithing_template>, //template
+    <item:minecraft:diamond_shovel>.anyDamage(), //base
+    <item:minecraft:netherite_ingot>);
+
+    smithing.addTransformRecipe("netherite_hoe_from_diamond",
+    <item:minecraft:netherite_hoe>, //result
+    <item:minecraft:netherite_upgrade_smithing_template>, //template
+    <item:minecraft:diamond_hoe>.anyDamage(), //base
+    <item:minecraft:netherite_ingot>);
 //weapons
     smithing.addTransformRecipe("iron_sword_from_stone",
     <item:minecraft:iron_sword>, //result
@@ -91,3 +114,9 @@ import crafttweaker.api.item.IItemStack;
     <item:kubejs:diamond_tool_upgrade>, //template
     <item:minecraft:golden_sword>.anyDamage(), //base
     <item:minecraft:diamond>);
+
+    smithing.addTransformRecipe("netherite_sword_from_diamond",
+    <item:minecraft:diamond_sword>, //result
+    <item:minecraft:netherite_upgrade_smithing_template>, //template
+    <item:minecraft:diamond_sword>.anyDamage(), //base
+    <item:minecraft:netherite_ingot>);

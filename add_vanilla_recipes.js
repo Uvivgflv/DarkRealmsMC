@@ -146,5 +146,6 @@ ServerEvents.recipes(event => {
         R:'quark:sturdy_stone',
         S:'#forge:rods/wooden'
     }).id('vl:weapons/stone/sword')
-
+    //netherite ingot recipe (low production)
+    event.shapeless('#forge:nuggets/netherite',['4x #forge:nuggets/gold','2x kubejs:fiery_scraps', '2x minecraft:netherite_scrap']).id('vl:netherite/low_production')
 })
