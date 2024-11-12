@@ -28,19 +28,19 @@ Changed
 
 	• Tools upgrades crafts from custom items :WIP:
 
-	• Iron and above weapons tiers now crafting using smithing table from parts and upgrades 
+	• Iron and above weapons tiers now crafting using smithing table from parts and upgrades  :check:
 
-	• Weapons upgrades parts drop from different hostile 
+	• Weapons upgrades parts drop from different hostile :NYI:
 
-	• Iron upgrades shards drops from zombies, spiders, husks
+		• Iron upgrades shards drops from zombies, spiders, husks
 
-	• Gold upgrades shards drops from creepers, cave spiders, ice skeletons
+		• Gold upgrades shards drops from creepers, cave spiders, ice skeletons
 
-	• Diamond upgrades shards drops from endermans, pillagers
+		• Diamond upgrades shards drops from endermans, pillagers
+	
+		• Netherite upgrade shards drops from piglins, piglin brute, zombified piglin
 
-	• Netherite upgrade shards drops from piglins, piglin brute, zombified piglin
-
-	• Tools and weapons recipes removed, except wood, stone tiers
+	• Tools and weapons recipes removed, except wood, stone tiers :check:
 
 
 	• Almost every create and create addons recipes completely removed, and many parts may find in structures or buying from villagers. For example: mechanical drill has no longer craft recipe, but it is still could be find in Tinkerers workshop structure :WIP:
@@ -50,6 +50,12 @@ New mods or deleted mods
 	• Adding Passive Skill Tree mod :check:
 
 	• Removed Valkyrien sky's :check:
+
+	• Adding SpawnBalanceUtil :check:
+
+	• Adding Inventorio
+
+	• 
 
 NYI
 
@@ -67,15 +73,15 @@ NYI
 
 Some progression changes
 
-	• Death penalty for losing Max HP (maximum lost HP is 4) 
+	• Death penalty for losing Max HP (maximum lost HP is 4)  :check:
 
-	• Game started with ring of seven curses on player
+	• Game started with ring of seven curses on player  :check:
 
-	• Tools progression: wooden, stone, copper, iron, golden, diamond, netherite, enderite(?) 
+	• Tools progression: wooden, stone, copper, iron, golden, diamond, netherite, enderite(?) :WIP:
 
-	• Tables progression inventory 2x2 crafting, wooden/stone/copper 3x3 crafting, iron/golden/diamond/netherite smithing table
+	• Tables progression inventory 2x2 crafting, wooden/stone/copper 3x3 crafting, iron/golden/diamond/netherite smithing table :NYI:
 
-	• Campfire, stone furnace, blasting furnace, create smelting 
+	• Campfire, stone furnace, blasting furnace, create smelting :WIP:
 
 	• 
 
