@@ -72,7 +72,8 @@ NYI
 
 	• Find a way to lock and unlock crafting recipes maybe using stages api. For trigger create a custom items and quest
 
-Some progression changes
+Some progression changes сырые идеи и ничего больше 
+
 
 	• Death penalty for losing Max HP (maximum lost HP is 4)  :check:
 
@@ -90,4 +91,11 @@ Some progression changes
 
         • Добавить контент после энда (новые биомы, экипировку, путь после энда) 
 
-        • 
+        • Уголь/древесный уголь/бурый уголь имеют разное время горения 
+уголь 1200, древесный уголь 600, бурый уголь 2500
+        • Добавить кастомные мульти блоки? 
+        • Сталь в хай Тир для механизмов из крейта и далее термала 
+        • Латекс/резина может использоваться для конвеерной ленты  
+        • Книги из Iron's spells&spell books делаются через инфузию апофеоза, кроме 
+стартовых и уникальных 
+        • Улучшения для инструментов и оружия падают с мобов (осколки улучшениЯ) 
