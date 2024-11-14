@@ -99,19 +99,19 @@ import crafttweaker.api.item.IItemStack;
 //weapons
     smithing.addTransformRecipe("iron_sword_from_stone",
     <item:minecraft:iron_sword>, //result
-    <item:kubejs:iron_tool_upgrade>, //template
+    <item:kubejs:iron_weapon_upgrade>, //template
     <item:minecraft:stone_sword>.anyDamage(), //base
     <item:minecraft:iron_ingot>);
 
     smithing.addTransformRecipe("golden_sword_from_iron",
     <item:minecraft:golden_sword>, //result
-    <item:kubejs:golden_tool_upgrade>, //template
+    <item:kubejs:golden_weapon_upgrade>, //template
     <item:minecraft:iron_sword>.anyDamage(), //base
     <item:minecraft:gold_ingot>);
 
     smithing.addTransformRecipe("diamond_sword_from_golden",
     <item:minecraft:diamond_sword>, //result
-    <item:kubejs:diamond_tool_upgrade>, //template
+    <item:kubejs:diamond_weapon_upgrade>, //template
     <item:minecraft:golden_sword>.anyDamage(), //base
     <item:minecraft:diamond>);
 
