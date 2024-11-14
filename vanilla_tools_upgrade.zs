@@ -116,7 +116,7 @@ import crafttweaker.api.item.IItemStack;
     <item:minecraft:diamond>);
 
     smithing.addTransformRecipe("netherite_sword_from_diamond",
-    <item:minecraft:diamond_sword>, //result
+    <item:minecraft:netherite_sword>, //result
     <item:minecraft:netherite_upgrade_smithing_template>, //template
     <item:minecraft:diamond_sword>.anyDamage(), //base
     <item:minecraft:netherite_ingot>);
