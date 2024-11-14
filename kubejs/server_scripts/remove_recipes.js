@@ -63,6 +63,8 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'immersive_weathering:vitrified_sand'})
 	//remove vanilla blanck map recipe
 	event.remove({id:'minecraft:map'})
+	//remove charcoal recipes for furnace
+	event.remove({id:'minecraft:charcoal'})
 
 
 
