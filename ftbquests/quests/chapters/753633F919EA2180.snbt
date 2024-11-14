@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "753633F919EA2180"
+	group: "1335E2071C8BF6B8"
+	icon: {
+		Count: 1
+		id: "enigmaticlegacy:cursed_ring"
+		tag: {
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "753633F919EA2180"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4...непременно умрёт.&r"
+				"Ты попал в не очень дружелюбный мир."
+				"Любопытно посмотреть, сколько на этот раз &4&oя увижу смертей?&r&r"
+			]
+			id: "15CCECD168ED1508"
+			rewards: [{
+				id: "73CE23D128C2BC51"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "biomesoplenty:origin_grass_block"
+				id: "3D1935C39AC6FC41"
+				title: "Всё что рожденно..."
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Сколько бы ты не умер, твои страдания не закончатся. "
+				"Ты ощущаешь всю твою &0&oбеспомощность?&r&r"
+			]
+			id: "1D3EE0750BB20ABF"
+			rewards: [
+				{
+					count: 2
+					id: "3689E8FF860BF16B"
+					item: "enigmaticlegacy:soul_crystal"
+					type: "item"
+				}
+				{
+					id: "09ED7FF01259778E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Тебе понравиться"
+			tasks: [{
+				icon: "graveyard:skull_pile"
+				id: "31A9AD6EC2797AE8"
+				stat: "minecraft:deaths"
+				title: "Ты не переживай"
+				type: "stat"
+				value: 5
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "2F0846D9D0DBE1B9"
+			tasks: [
+				{
+					id: "4C529D399BE91705"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					entity: "minecraft:cow"
+					id: "211FE47003714F7F"
+					title: "Накажи их"
+					type: "kill"
+					value: 3L
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "17E2DA2C8A6DA0B2"
+					item: { Count: 2, id: "minecraft:beef" }
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "44A4DCF28E8147EE"
+			rewards: [{
+				id: "129F509DE104CF55"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: true
+				count: 9L
+				id: "7C10D87153AB4EF5"
+				item: { Count: 9, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "322A6E6D5EDA580F"
+			rewards: [{
+				id: "482AA0CE6C297BBC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "15A0CA00F4865750"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "3F3C621F5CE50B7B"
+			tasks: [{
+				id: "561F1DFF3F322F58"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			id: "093794E727C933C2"
+			tasks: [{
+				count: 16L
+				id: "68695448696D6260"
+				item: { Count: 16, id: "minecraft:brick" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			id: "42E9EED8F3836349"
+			tasks: [{
+				id: "3D7B75E95332F125"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "55945460933EB4ED"
+			tasks: [{
+				count: 32L
+				id: "0A8230AD96595F84"
+				item: { Count: 32, id: "farmersdelight:straw" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "441D6682C908BDF5"
+			tasks: [{
+				id: "6B7E0793F96AF1DD"
+				item: {
+					Count: 1
+					id: "minecraft:leather_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			id: "57BA9F8D87C95D1C"
+			tasks: [{
+				id: "6C9497C924BC5FE4"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+	]
+	title: "Проклятый"
+}
