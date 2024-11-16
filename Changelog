@@ -6,13 +6,15 @@ Added
 
 	• Recipes netherite ingot from fiery :check:
 
-	• Inventory items weight items: raw ores, gems 1 => 2-4, ingots 1 => 3-8, chests 1 => 16, shields 1 => 16-24 :check:
+	• Inventory items weight items: raw ores, gems 1 => 2-4, ingots 1 => 3-8, chests 1 => 16, shields 1 => 16-24, waystone => 20, logs => 4 :check:
 
 	• Custom items for tools upgrades stone -> iron, iron -> gold, gold -> diamond.  :check:
 
 	• Custom items for weapons upgrades stone -> iron, iron -> gold, gold -> diamond. :check:
 
-	• 
+	• Craft for Andesite/copper/brass casing fron reate :check:
+
+	• Biome related mob spawns is not yet implemented !!!
 
 Changed 
 
@@ -54,9 +56,7 @@ New mods or deleted mods
 
 	• Adding SpawnBalanceUtil :check:
 
-	• Adding Inventorio
-
-	•  River Redux
+	• River Redux
 
 NYI
 
