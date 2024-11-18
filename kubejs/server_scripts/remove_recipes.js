@@ -65,7 +65,11 @@ ServerEvents.recipes(event => {
 	event.remove({id:'minecraft:map'})
 	//remove charcoal recipes for furnace
 	event.remove({id:'minecraft:charcoal'})
-
+	//remove resin from thermal
+	event.remove({output: 'thermal:rubber'})
+	event.remove({output: 'thermal:cured_rubber'})
+	//remove andsite recipe from compat with thermal
+	event.remove({id: 'thermal:compat/create/smelter_create_alloy_andesite_alloy'})
 
 
 
