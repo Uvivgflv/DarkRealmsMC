@@ -16,6 +16,8 @@ Added
 
 	• Biome related mob spawns is not yet implemented !!!
 
+        • Custom items for apotheosis infusion
+
 Changed 
 
 	• Config for thermal ore generation: remove lead, nickel ores :check:
@@ -32,21 +34,24 @@ Changed
 
 	• Iron and above weapons tiers now crafting using smithing table from parts and upgrades  :check:
 
-	• Weapons upgrades parts drop from different hostile :NYI:
+	• Weapons upgrades parts drop from different hostile :Check:
 
-		• Iron upgrades shards drops from zombies, spiders, husks
+		• Iron upgrades shards drops from zombies, skeletons, husks
 
-		• Gold upgrades shards drops from creepers, cave spiders, ice skeletons
+		• Gold upgrades shards drops from wither-skeletons, blazes, strays
 
 		• Diamond upgrades shards drops from endermans, pillagers
 	
-		• Netherite upgrade shards drops from piglins, piglin brute, zombified piglin
+		• Netherite upgrade shards drops from piglins, piglin brute
 
 	• Tools and weapons recipes removed, except wood, stone tiers :check:
 
+        • Tools upgrades duplicate :check:
 
 	• Almost every create and create addons recipes completely removed, and many parts may find in structures or buying from villagers.
 For example: mechanical drill has no longer craft recipe, but it is still could be find in Tinkerers workshop structure      :WIP:
+
+        • Spell books crafted from custom item in infusion from apotheosis
 
 New mods or deleted mods
 
@@ -56,7 +61,9 @@ New mods or deleted mods
 
 	• Adding SpawnBalanceUtil :check:
 
-	• River Redux
+	• River Redux :check:
+
+        • Removed Inventorio 
 
 NYI
 
