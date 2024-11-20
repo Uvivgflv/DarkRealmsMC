@@ -13,6 +13,8 @@ ServerEvents.tags('item', event => {
     event.add('vl:cobbled_furnaces', ['quark:blackstone_furnace','quark:deepslate_furnace'])
 
     event.add('vl:andesite_casing_stones', ['minecraft:diorite','minecraft:andesite','minecraft:granite'])
+
+    event.add('ct:raw_rose_quartz',['create:rose_quartz','biomesoplenty:rose_quartz_chunk'])
     
 })
 ServerEvents.tags('block', event => {
