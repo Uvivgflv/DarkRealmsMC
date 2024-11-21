@@ -11,8 +11,6 @@ ServerEvents.recipes(event => {
         { id: 'create:crafting/kinetics/turntable' },
         { id: 'create:crafting/kinetics/cuckoo_clock' },
         { id: 'create:crafting/kinetics/mysterious_cuckoo_clock' },
-        { id: 'create:crafting/kinetics/millstone' },
-        { id: 'create:crafting/kinetics/mechanical_mixer' },
         { id: 'create:crafting/kinetics/weighted_ejector' },
         { id: 'create:crafting/kinetics/smart_chute' },
         { id: 'create:crafting/kinetics/speedometerfrom_conversion' },
