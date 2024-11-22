@@ -1,4 +1,4 @@
-Changelog v0.2.0 DarkRealms
+Changelog v1.0.0 DarkRealms
 
 Added
 
@@ -12,11 +12,13 @@ Added
 
 	• Custom items for weapons upgrades stone -> iron, iron -> gold, gold -> diamond. :check:
 
-	• Craft for Andesite/copper/brass casing fron reate :check:
+	• Craft for Andesite/copper/brass casing from create :check:
 
 	• Biome related mob spawns is not yet implemented !!!
 
-        • Custom items for apotheosis infusion
+        • Spells books crafting in enchanting infusion
+
+        • Quest system work in progress
 
 Changed 
 
