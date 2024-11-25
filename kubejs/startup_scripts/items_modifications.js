@@ -4,4 +4,9 @@ ItemEvents.modification(event => {
       item.fireResistant = true
       item.rarity = 'RARE'
     })
+
+    event.modify(/^minecraft:.*_smithing_template/, item =>{
+      item.maxStackSize = 16
+    })
   })
+  

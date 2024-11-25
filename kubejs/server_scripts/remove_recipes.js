@@ -11,9 +11,6 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'minecraft:blast_furnace'})
 	//remove thermal generators
 	event.remove({output: '#thermal:dynamos'})
-	//remove tfmg generators 
-	event.remove({output: 'tfmg:rotor'})
-	event.remove({output: 'tfmg:stator'})
 	//remove gunpowder recipes
 	event.remove({id: 'spelunkery:gunpowder'})
 	event.remove({id: 'thermal:gunpowder_4'})
