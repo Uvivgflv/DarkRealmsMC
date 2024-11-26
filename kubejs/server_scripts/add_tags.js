@@ -15,6 +15,9 @@ ServerEvents.tags('item', event => {
     event.add('vl:andesite_casing_stones', ['minecraft:diorite','minecraft:andesite','minecraft:granite'])
 
     event.add('ct:raw_rose_quartz',['create:rose_quartz','biomesoplenty:rose_quartz_chunk'])
+
+    event.add('sp:fur', ['alexsmobs:bear_fur', 'forbidden_arcanus:cloth', 'alexsmobs:bison_fur', 'kubejs:plant_fabric'])
+    event.add('ct:resin_alt_craft', ['minecraft:dried_kelp', 'thermal:cured_rubber', 'tfmg:plastic_sheet'])
     
 })
 ServerEvents.tags('block', event => {
