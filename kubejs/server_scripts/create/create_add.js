@@ -148,7 +148,7 @@ ServerEvents.recipes(event =>{
    ],{
       p:'#forge:plates/copper',
       i:'#forge:ingots/copper'
-   }).id('ct:fluid_pipe_v')
+   }).id('ct:fluid_pipe_v')//alt sequesne
 
    event.shaped('create:electron_tube',[
       ' Q ',
@@ -157,7 +157,70 @@ ServerEvents.recipes(event =>{
    ],{
       Q:'#ct:raw_rose_quartz',
       I:'#forge:plates/iron'
-   }).id('ct:electron_tube_crafting_table')
+   }).id('ct:electron_tube_crafting_table')//alt sequense
+
+   event.shaped('create:spout',[
+      ' C ',
+      'srs',
+      ' s '
+   ],{
+      C:'create:copper_casing',
+      s:'#forge:plates/copper',
+      r:'#ct:resin_alt_craft'
+   }).id('ct:spout')
+
+   event.shaped('create:item_drain',[
+      '   ',
+      'sBs',
+      'sCs'
+   ],{
+      s:'$forge:plates/copper',
+      B:'quark:grate',
+      C:'create:copper_casing'
+   }).id('ct:item_drain')
+
+   event.shaped('create:hose_pulley',[
+      'sss',
+      'SCS',
+      ' r '
+   ],{
+      s:'#forge:plates/copper',
+      S:'create:shaft',
+      C:'create:copper_casing',
+      r:'#ct:resin_alt_craft'
+   }).id('ct:hose_pulley')
+
+   event.shaped('create:copper_valve_handle',[
+      ' s ',
+      'sSs',
+      ' s '
+   ],{
+      S:'create:shaft',
+      s:'#forge:plates/copper'
+   }).id('ct:copper_valve_handle')
+
+   event.shaped('4x create:fluid_tank',[
+      'scs',
+      'gBg',
+      'scs'
+   ],{
+      s:'#forge:plates/copper',
+      c:'#forge:ingots/copper',
+      g:'#minecraft:glass',
+      B:'minecraft:barrel'
+   }).id('ct:fluid_tank_crafting_table')//alt sequense
+
+   event.shaped('create:fluid_valve',[
+      'PS',
+      's  '
+   ],{
+      P:'create:fluid_pipe',
+      S:'create:shaft',
+      s:'#forge:plates/iron'
+   }).id('ct:fluid_valve')
+
+   
+
 
    //event.shaped()
 
