@@ -174,7 +174,7 @@ ServerEvents.recipes(event =>{
       'sBs',
       'sCs'
    ],{
-      s:'$forge:plates/copper',
+      s:'#forge:plates/copper',
       B:'quark:grate',
       C:'create:copper_casing'
    }).id('ct:item_drain')
