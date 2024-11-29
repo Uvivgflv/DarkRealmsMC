@@ -185,4 +185,8 @@ ServerEvents.recipes(event => {
         L:'#forge:leather',
         H:'farmersdelight:canvas'
     })
+
+    //add misc materials
+    event.shapeless('4x kubejs:plant_fabric',['2x farmersdelight:canvas','2x minecraft:string']).id('vl:plant_fabric')
+    event.shapeless('4x kubejs:magic_powder', ['2x kubejs:amethyst_dust', 'minecraft:redstone', 'minecraft:glowstone_dust']).id('vl:magic_powder')
 })
