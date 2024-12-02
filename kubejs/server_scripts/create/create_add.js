@@ -1,5 +1,6 @@
 ServerEvents.recipes(event =>{
    event.shapeless('4x create:andesite_alloy', ['2x #vl:andesite_casing_stones','2x #forge:nuggets/zinc']).id('ct:andesite_alloy_4')
+   event.shapeless('create:sand_paper', ['minecraft:paper', '#minecraft:sand']).id('ct:sand_paper')
 
    event.shaped('8x create:shaft',[
     '   ',
@@ -127,12 +128,12 @@ ServerEvents.recipes(event =>{
       '  S',
       '   '
    ],{
-      s:'#forege:rods/wooden',
+      s:'#forge:rods/wooden',
       p:'#minecraft:planks',
       S:'create:shaft'
    }).id('ct:hand_crank')
 
-   event.shaped('6x create:fluid_pipe',[
+   event.shaped('4x create:fluid_pipe',[
       '   ',
       'pip',
       '   '
@@ -141,7 +142,7 @@ ServerEvents.recipes(event =>{
       i:'#forge:ingots/copper'
    }).id('ct:fluid_pipe_h')
 
-   event.shaped('6x create:fluid_pipe',[
+   event.shaped('4x create:fluid_pipe',[
       ' p ',
       ' i ',
       ' p '
@@ -199,20 +200,20 @@ ServerEvents.recipes(event =>{
       s:'#forge:plates/copper'
    }).id('ct:copper_valve_handle')
 
-   event.shaped('4x create:fluid_tank',[
+   event.shaped('create:fluid_tank',[
       'scs',
       'gBg',
       'scs'
    ],{
       s:'#forge:plates/copper',
       c:'#forge:ingots/copper',
-      g:'#minecraft:glass',
+      g:'#forge:glass/silica',
       B:'minecraft:barrel'
    }).id('ct:fluid_tank_crafting_table')//alt sequense
 
    event.shaped('create:fluid_valve',[
       'PS',
-      's  '
+      's '
    ],{
       P:'create:fluid_pipe',
       S:'create:shaft',
@@ -220,10 +221,8 @@ ServerEvents.recipes(event =>{
    }).id('ct:fluid_valve')
 
    
-
-
    //event.shaped()
-
+   
    event.stonecutting('4x create:cogwheel', '#minecraft:planks').id('ct:stonecutting/cog')
    event.stonecutting('create:large_cogwheel', '#minecraft:planks').id('ct:stonecutting/large_cog')
 })
