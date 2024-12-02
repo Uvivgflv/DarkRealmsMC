@@ -1,6 +1,24 @@
 ServerEvents.recipes(event => {
 
     //crafting stations
+    event.shaped('minecraft:crafting_table',[
+        'FF',
+        'll'
+    ],{
+        F:'minecraft:flint',
+        l:'#minecraft:logs'
+    }).id('vl:crafting_table')
+
+    event.shaped('minecraft:stonecutter',[
+        ' n ',
+        'nin',
+        'SSS'
+    ],{
+        n:'#forge:nuggets/iron',
+        i:'#forge:ingots/lead',
+        S:'minecraft:smooth_stone'
+    }).id('vl:stonecutter')
+
     event.shaped('minecraft:furnace',[
         'BBB',
         'CFC',
@@ -10,7 +28,7 @@ ServerEvents.recipes(event => {
         S:'minecraft:cobblestone',
         C:'quark:sturdy_stone',
         B:'minecraft:brick',
-        F:'#minecraft:coals'
+        F:'minecraft:charcoal'
     }).id('vl:crafting_stations/furnace')
 
     event.shaped('minecraft:campfire',[
@@ -36,6 +54,16 @@ ServerEvents.recipes(event => {
         S: 'minecraft:smooth_stone',
         C: 'quark:sturdy_stone'
     }).id('vl:crafting_stations/blast_furnace')
+
+    event.shaped('minecraft:smithing_table',[
+        'lll',
+        'pSp',
+        'pSp'
+    ],{
+        l:'#forge:ingots/lead',
+        p:'#minecraft:planks',
+        S:'minecraft:smooth_stone'
+    }).id('vl:smithing_table')
     //wooden tools
     event.shaped('minecraft:wooden_pickaxe',[
         'FWF',
@@ -185,8 +213,14 @@ ServerEvents.recipes(event => {
         L:'#forge:leather',
         H:'farmersdelight:canvas'
     })
-
+    //add other tools&blocks
+    event.stonecutting('thermal:sawdust', 'farmersdelight:tree_bark').id('vl:sawdust_from_bark_fd')
+    event.stonecutting('thermal:sawdust', '#immersive_weathering:bark').id('vl:sawdust_from_bark_imm')
+    event.stonecutting('2x quark:gold_bars', '#forge:ingots/gold').id('vl:gold_bars')
+    event.stonecutting('2x minecraft:iron_bars', '#forge:ingots/iron').id('vl:iron_bars')
+    event.shapeless('minecraft:flint_and_steel',['minecraft:flint','minecraft:cobblestone']).id('vl:flint_and_steel')
     //add misc materials
     event.shapeless('4x kubejs:plant_fabric',['2x farmersdelight:canvas','2x minecraft:string']).id('vl:plant_fabric')
     event.shapeless('4x kubejs:magic_powder', ['2x kubejs:amethyst_dust', 'minecraft:redstone', 'minecraft:glowstone_dust']).id('vl:magic_powder')
+    //blocks
 })

@@ -7,8 +7,11 @@ ServerEvents.recipes(event => {
 	//vanilla materials
 	event.remove({id: 'minecraft:smooth_stone'})
     //vanilla crafting stations
+	event.remove({id:'minecraft:ctafting_table'})
 	event.remove({id: 'quark:building/crafting/furnaces/cobblestone_furnace'})
 	event.remove({output: 'minecraft:blast_furnace'})
+	event.remove({id:'minecraft:stonecutter'})
+	event.remove({id: 'minecraft:smithing_table'})
 	//remove thermal generators
 	event.remove({output: '#thermal:dynamos'})
 	//remove gunpowder recipes
@@ -40,6 +43,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'twilightforest:mining_chest'})			//7
 	event.remove({output: 'twilightforest:sorting_chest'})			//8
 	//remove vanilla tools 
+	event.remove({id: 'minecraft:flint_and_steel'})
 	event.remove({output: /^minecraft:.*_pickaxe/})
 	event.remove({output: /^minecraft:.*_axe/})
 	event.remove({output: /^minecraft:.*_hoe/})
@@ -67,6 +71,9 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'thermal:cured_rubber'})
 	//remove andsite recipe from compat with thermal
 	event.remove({id: 'thermal:compat/create/smelter_create_alloy_andesite_alloy'})
+	//remove blocks
+	event.remove({id: 'minecraft:iron_bars'})
+	event.remove({id: 'quark:building/crafting/gold_bars'})
 
 
 
